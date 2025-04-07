@@ -1,34 +1,17 @@
-3. **Agregar el archivo README al repositorio**:
-   - Una vez que hayas creado y guardado el archivo `README.md`, agrégalo a tu repositorio Git:
-     ```sh
-     git add README.md
-     ```
+# Calculadora de IMC
 
-4. **Confirmar el commit**:
-   - Confirma el commit para agregar el archivo README al repositorio:
-     ```sh
-     git commit -m "Agregar archivo README"
-     ```
+## Descripción
 
-5. **Empujar los cambios al repositorio remoto**:
-   - Empuja los cambios a tu repositorio remoto:
-     ```sh
-     git push origin main
-     ```
+Este proyecto es una calculadora de Índice de Masa Corporal (IMC) que permite a los usuarios ingresar su nombre, apellido, edad, peso y altura, y luego calcula su IMC. Basado en el valor del IMC, la calculadora clasifica el estado de salud del usuario en diferentes categorías.
 
-Aquí tienes los comandos completos:
+## Funcionalidades
 
-```sh
-# Crear el archivo README.md
-touch README.md
+- Captura de nombre y apellido, asegurando que solo contengan letras y espacios.
+- Captura de edad, asegurando que solo contenga números.
+- Captura de peso y altura, asegurando que solo contengan números y decimales.
+- Cálculo del IMC basado en el peso y la altura del usuario.
+- Clasificación del IMC en diferentes categorías de salud.
 
-# Abrir el archivo README.md en tu editor de texto y agregar el contenido
+## Uso
 
-# Agregar el archivo README al repositorio
-git add README.md
-
-# Confirmar el commit
-git commit -m "Agregar archivo README"
-
-# Empujar los cambios al repositorio remoto
-git push origin main
+Para usar la calculadora de IMC, simplemente ejecuta el script y sigue las instrucciones para ingresar tu información personal. El script calculará tu IMC y te proporcionará una clasificación basada en el valor calculado.
